@@ -1,10 +1,10 @@
-def adding(*args):
+def add(*args):
     add = 0
     for a in args:
         add += a
     return add
 
-def multiplying(*args):
+def multiply(*args):
     multiply = 1
     for b in args:
         multiply *= b
